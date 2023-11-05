@@ -1,0 +1,12 @@
+Pasos:
+1-Conectar la llave Maya
+2-Ingresar al BIOS
+3-Ingresar al GRUB
+4-Seleccionar las opciones
+5-Estando en el prompt del OS de TinyCore, realizar:
+
+cd /mnt
+mount sdba1
+cd sdba1/EvilMaid
+sudo chmod 777 ataqueEvilMaid.sh
+sudo ./ataqueEvilMaid.sh
